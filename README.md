@@ -25,13 +25,13 @@ Pre-req: Java8 and Maven3
 
       1. ```mvn package```
 
-          * this command runs all the tests and package up a jar in the Permutations/target directory
+          * This command runs all the tests and package up a jar in the Permutations/target directory.
 
       2. cd into Permutations/target 
 
-      3. run the command:  ```java -jar translate-0.0.1-SNAPSHOT.jar 10X10X0```
+      3. Run the command:  ```java -jar translate-0.0.1-SNAPSHOT.jar 10X10X0```
 
-         * the argument is a string with 1s, 0s and Xs. ex: 1x0
+         * The argument is a string with 1s, 0s and Xs. E.g: 1x0
 
 #### Example: 
 
@@ -45,7 +45,7 @@ java -jar translate-0.0.1-SNAPSHOT.jar 10X10X0
 
 #### Performance:
 
-This solution runs in 2^n, as we recursively print our answer.
+This solution runs in O(2^n), as we recursively print our answer.
 
 #### Assumptions:
 
