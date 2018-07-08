@@ -1,12 +1,11 @@
 package com.permutation.translate;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+import com.permutation.translate.manager.impl.PermutationManagerImpl;
 
-@SpringBootApplication
 public class TranslateApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TranslateApplication.class, args);
+		PermutationManagerImpl pm = new PermutationManagerImpl();
+		pm.printPermutations(args[0]);
 	}
 }
