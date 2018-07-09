@@ -20,6 +20,7 @@ Pre-req: Java8 and Maven3
 3. Install Maven:
 
    ```brew install maven```
+4. Run the project:
 
       In the terminal, run the following command in the Permutations directory.
 
